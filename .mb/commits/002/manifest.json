@@ -1,0 +1,12 @@
+{
+  "batch_ref": "bat-3abd33b9eb25",
+  "changed": [
+    "frontend/index.html"
+  ],
+  "commit_no": 2,
+  "commit_ref": "mc-2cde9611b371",
+  "parent_commit_ref": "mc-f0101634a883",
+  "summary": "Controls and horizontal movement",
+  "tree_hash": "sha256:959f9cada636604db33bc1ba82fed347457dcb032c37ac195b4343c5f0ea6e72",
+  "validation_status": "approved"
+}

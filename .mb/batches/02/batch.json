@@ -1,0 +1,47 @@
+{
+  "batch_id": "bat-3abd33b9eb25",
+  "change_type": "add-feature",
+  "commit_ref": "mc-2cde9611b371",
+  "goal_md": "Controls and horizontal movement",
+  "is_repair": false,
+  "ordinal": 2,
+  "parent_commit_ref": "mc-f0101634a883",
+  "plan": {
+    "acceptance_commands": [
+      "test -f frontend/index.html",
+      "grep -q '<canvas' frontend/index.html"
+    ],
+    "allowed_files": [
+      "frontend/index.html"
+    ],
+    "batch_id": "bat-3abd33b9eb25",
+    "blueprint_id": "bp-b49157138b62",
+    "change_summary": [
+      "Apply requested changes",
+      "Update prompt pack"
+    ],
+    "change_type": "add-feature",
+    "goal_md": "Controls and horizontal movement",
+    "is_repair": false,
+    "ordinal": 2,
+    "parent_commit_ref": "mc-f0101634a883",
+    "schema_version": "matrix.builder.batch-plan/v1",
+    "tasks": [
+      {
+        "acceptance_criteria": [
+          "Change implemented",
+          "Tests pass",
+          "No Matrix control files changed"
+        ],
+        "allowed_files": [
+          "frontend/index.html"
+        ],
+        "task_id": "TASK-002",
+        "title": "Controls and horizontal movement"
+      }
+    ],
+    "title": "Controls and horizontal movement"
+  },
+  "status": "committed",
+  "title": "Controls and horizontal movement"
+}

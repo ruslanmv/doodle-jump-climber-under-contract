@@ -1,0 +1,13 @@
+{
+  "blueprint_id": "bp-b49157138b62",
+  "current_commit_ref": "mc-8c08092f78c3",
+  "idea": "A neon Mario-style vertical platformer / Doodle-Jump climber, single self-contained HTML file, runs on GitHub Pages, mobile + desktop, governed by the Ruslan Magana Definitions",
+  "last_failing_batch": null,
+  "next_batch_ordinal": 7,
+  "next_commit_no": 8,
+  "project_id": "bp-b49157138b62",
+  "quality": "standard",
+  "slug": "a-neon-mario-style-vertical-platformer-doodle-jump-climber-single-self-c",
+  "title": "Neon Climber Under Contract",
+  "version_label": "v1.0.0"
+}

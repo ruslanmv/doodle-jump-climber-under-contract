@@ -1,0 +1,47 @@
+{
+  "batch_id": "bat-44d5c2ae235c",
+  "change_type": "add-feature",
+  "commit_ref": "mc-cf84ff722c6e",
+  "goal_md": "Enemies and power-ups",
+  "is_repair": false,
+  "ordinal": 4,
+  "parent_commit_ref": "mc-511e55820933",
+  "plan": {
+    "acceptance_commands": [
+      "test -f frontend/index.html",
+      "grep -q '<canvas' frontend/index.html"
+    ],
+    "allowed_files": [
+      "frontend/index.html"
+    ],
+    "batch_id": "bat-44d5c2ae235c",
+    "blueprint_id": "bp-b49157138b62",
+    "change_summary": [
+      "Apply requested changes",
+      "Update prompt pack"
+    ],
+    "change_type": "add-feature",
+    "goal_md": "Enemies and power-ups",
+    "is_repair": false,
+    "ordinal": 4,
+    "parent_commit_ref": "mc-511e55820933",
+    "schema_version": "matrix.builder.batch-plan/v1",
+    "tasks": [
+      {
+        "acceptance_criteria": [
+          "Change implemented",
+          "Tests pass",
+          "No Matrix control files changed"
+        ],
+        "allowed_files": [
+          "frontend/index.html"
+        ],
+        "task_id": "TASK-002",
+        "title": "Enemies and power-ups"
+      }
+    ],
+    "title": "Enemies and power-ups"
+  },
+  "status": "committed",
+  "title": "Enemies and power-ups"
+}

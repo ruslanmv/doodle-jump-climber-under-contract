@@ -1,0 +1,83 @@
+{
+  "blueprint_id": "bp-b49157138b62",
+  "candidate_id": "cand-109ce29ed817",
+  "name": "Standard Matrix Bundle",
+  "slug": "a-neon-mario-style-vertical-platformer-doodle-jump-climber-single-self-c",
+  "idea": "A neon Mario-style vertical platformer / Doodle-Jump climber, single self-contained HTML file, runs on GitHub Pages, mobile + desktop, governed by the Ruslan Magana Definitions",
+  "quality_level": "standard",
+  "stack": {
+    "frontend": "nextjs",
+    "backend": "fastapi",
+    "worker": "python",
+    "database": "postgresql",
+    "auth": "none",
+    "deploy": "docker"
+  },
+  "pages": [
+    "/",
+    "/dashboard",
+    "/about"
+  ],
+  "services": [
+    "frontend",
+    "api",
+    "worker"
+  ],
+  "api_routes": [
+    {
+      "method": "GET",
+      "path": "/api/v1/health",
+      "summary": "Health check",
+      "auth_required": false
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/run",
+      "summary": "Run the primary workflow",
+      "auth_required": false
+    }
+  ],
+  "required_files": [
+    "README.md",
+    "MATRIX_BLUEPRINT.yaml",
+    "MATRIX_STANDARDS.lock",
+    "MATRIX_TASKS.md",
+    "MATRIX_ALLOWED_CHANGES.md",
+    "MATRIX_ACCEPTANCE_CRITERIA.md",
+    "MATRIX_VALIDATION.md",
+    "docs/architecture.md",
+    "docs/security.md",
+    "docs/standards-report.md"
+  ],
+  "allowed_change_roots": [
+    "frontend/",
+    "backend/",
+    "worker/",
+    "tests/"
+  ],
+  "forbidden_changes": [
+    "MATRIX_BLUEPRINT.yaml",
+    "MATRIX_STANDARDS.lock",
+    ".github/workflows/"
+  ],
+  "tasks": [
+    {
+      "task_id": "TASK-001",
+      "title": "A neon Mario-style vertical platformer / Doodle-Jump climber, single self-contained HTML file, runs on GitHub Pages, mob",
+      "allowed_files": [
+        "backend/app/task-1.py",
+        "backend/tests/test_task_1.py"
+      ],
+      "acceptance_criteria": [
+        "Completed: A neon Mario-style vertical platformer / Doodle-Jump climber, single self-contai",
+        "No Matrix control files changed"
+      ]
+    }
+  ],
+  "acceptance_commands": [
+    "pytest -q",
+    "ruff check .",
+    "npm run build"
+  ],
+  "standards_lock_ref": "MATRIX_STANDARDS.lock"
+}

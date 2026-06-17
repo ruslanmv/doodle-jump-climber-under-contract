@@ -1,0 +1,47 @@
+{
+  "batch_id": "bat-d378c4bfa794",
+  "change_type": "add-feature",
+  "commit_ref": "mc-b133e1b1d466",
+  "goal_md": "Juice: particles, parallax, sound, screen-shake",
+  "is_repair": false,
+  "ordinal": 5,
+  "parent_commit_ref": "mc-cf84ff722c6e",
+  "plan": {
+    "acceptance_commands": [
+      "test -f frontend/index.html",
+      "grep -q '<canvas' frontend/index.html"
+    ],
+    "allowed_files": [
+      "frontend/index.html"
+    ],
+    "batch_id": "bat-d378c4bfa794",
+    "blueprint_id": "bp-b49157138b62",
+    "change_summary": [
+      "Apply requested changes",
+      "Update prompt pack"
+    ],
+    "change_type": "add-feature",
+    "goal_md": "Juice: particles, parallax, sound, screen-shake",
+    "is_repair": false,
+    "ordinal": 5,
+    "parent_commit_ref": "mc-cf84ff722c6e",
+    "schema_version": "matrix.builder.batch-plan/v1",
+    "tasks": [
+      {
+        "acceptance_criteria": [
+          "Change implemented",
+          "Tests pass",
+          "No Matrix control files changed"
+        ],
+        "allowed_files": [
+          "frontend/index.html"
+        ],
+        "task_id": "TASK-002",
+        "title": "Juice: particles, parallax, sound, screen-shake"
+      }
+    ],
+    "title": "Juice: particles, parallax, sound, screen-shake"
+  },
+  "status": "committed",
+  "title": "Juice: particles, parallax, sound, screen-shake"
+}
