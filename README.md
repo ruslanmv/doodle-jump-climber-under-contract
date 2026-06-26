@@ -1,9 +1,10 @@
 <div align="center">
-
+  
 <h1>🍄 Neon Climber — Under Contract</h1>
 <h3>A Mario-style neon platformer — built by an <i>open</i> model, one governed batch at a time.</h3>
 
 <p><b>openai/gpt-oss-120b</b> (running on <b>IBM watsonx.ai</b>), driven by <a href="https://gitpilot.ruslanmv.com">GitPilot</a>, wrote <code>frontend/index.html</code> across <b>6 batches</b> — and <i>only</i> that file — each bound by a <a href="https://github.com/agent-matrix/matrix-builder">Matrix Builder</a> contract and validated by <code>mb check</code> <b>before</b> it could land.</p>
+
 
 <p>
   <a href="https://ruslanmv.com/doodle-jump-climber-under-contract/"><img src="https://img.shields.io/badge/%E2%96%B6_PLAY_NOW-39ff14?style=for-the-badge&amp;labelColor=07060f&amp;color=39ff14" alt="Play now"></a>
